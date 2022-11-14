@@ -1,13 +1,10 @@
 {
-  "nome": "Venilton FalvoJr",
-  "titulo": "Education Tech Lead na DIO",
-  "localidade": {
-    "cidade": "Araraquara",
-    "estado": "São Paulo",
-    "pais": "Brasil"
-  },
-  "telefone": "(16) 99721-8281",
-  "email": "venilton@dio.me",
+  "name": "Hugo Bouzada",
+  "photo": "https://avatars.githubusercontent.com/u/96755862?v=4",
+  "job": "Júnior Developer",
+  "location": "Rio de Janeiro - RJ",
+  "phone": "(21) 98277-5524",
+  "email": "hugobouzada@gmail.com",
   "skills": {
     "hardSkills": [
       {
@@ -23,11 +20,7 @@
         "logo": "TODO"
       }
     ],
-    "softSkills": [
-      "Comunicação",
-      "Empatia",
-      "Poder de Sedução Imcomparável"
-    ]
+    "softSkills": ["Comunicação", "Empatia", "Poder de Sedução Imcomparável"]
   },
   "idiomas": [
     {
