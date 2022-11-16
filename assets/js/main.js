@@ -43,9 +43,18 @@ function updateHardSkills(profileData) {
     .join("");
 }
 
+function updateLanguages(profileData) {
+  const languages = document.getElementById("profile.languages");
+
+  languages.innerHTML = profileData.profile.languages
+    .map((skill) => `<li>${language}</li>`)
+    .join("");
+}
+
 (async () => {
   const profileData = await fetchProfileData();
   updateProfileInfo(profileData);
   updateSoftSkills(profileData);
   updateHardSkills(profileData);
+  updateLanguages(profileData);
 })();
