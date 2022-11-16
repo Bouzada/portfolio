@@ -8,23 +8,23 @@
   "skills": {
     "hardSkills": [
       {
-        "nome": "HTML",
+        "name": "HTML",
         "logo": "https://raw.githubusercontent.com/Bouzada/portfolio/main/data/imgs/html.png"
       },
       {
-        "nome": "CSS",
+        "name": "CSS",
         "logo": "https://raw.githubusercontent.com/Bouzada/portfolio/main/data/imgs/css.png"
       },
       {
-        "nome": "JavaScript",
+        "name": "JavaScript",
         "logo": "https://raw.githubusercontent.com/Bouzada/portfolio/main/data/imgs/js.png"
       },
       {
-        "nome": "Git",
+        "name": "Git",
         "logo": "https://raw.githubusercontent.com/Bouzada/portfolio/main/data/imgs/git.png"
       },
       {
-        "nome": "Github",
+        "name": "Github",
         "logo": "https://raw.githubusercontent.com/Bouzada/portfolio/main/data/imgs/github.png"
       }
     ],
