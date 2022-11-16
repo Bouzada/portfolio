@@ -8,16 +8,24 @@
   "skills": {
     "hardSkills": [
       {
-        "nome": "Android",
-        "logo": "TODO"
+        "nome": "HTML",
+        "logo": "https://raw.githubusercontent.com/Bouzada/portfolio/main/data/imgs/html.png"
       },
       {
-        "nome": "Java",
-        "logo": "TODO"
+        "nome": "CSS",
+        "logo": "https://raw.githubusercontent.com/Bouzada/portfolio/main/data/imgs/css.png"
       },
       {
-        "nome": "Kotlin",
-        "logo": "TODO"
+        "nome": "JavaScript",
+        "logo": "https://raw.githubusercontent.com/Bouzada/portfolio/main/data/imgs/js.png"
+      },
+      {
+        "nome": "Git",
+        "logo": "https://raw.githubusercontent.com/Bouzada/portfolio/main/data/imgs/git.png"
+      },
+      {
+        "nome": "Github",
+        "logo": "https://raw.githubusercontent.com/Bouzada/portfolio/main/data/imgs/github.png"
       }
     ],
     "softSkills": [
