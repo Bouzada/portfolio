@@ -39,6 +39,11 @@
   "languages": ["Português BR", "Ingês (Intermediário)"],
   "certificate": [
     {
+      "name": "HTML Web Developer",
+      "institution": "DIO - Digital Innovation One",
+      "certificate": "https://www.dio.me/certificate/FD3DCBE5"
+    },
+    {
       "name": "Bootcamp Take Blip Web Developer",
       "institution": "DIO - Digital Innovation One",
       "certificate": "https://www.dio.me/certificate/F6658B76"

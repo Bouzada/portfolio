@@ -60,7 +60,8 @@ function updateCertificate(profileData) {
     <li>
       <h3>${certificate.name}<br>
       <span class="institution">(${certificate.institution})</span></h3>
-      <p>Certificado: <a href="${certificate.certificate}">${certificate.certificate}</a></p>
+      <p class="certificate">Certificado: <a href="${certificate.certificate}">${certificate.certificate}</a></p>
+      </h3>
     </li>`
     )
     .join("");
