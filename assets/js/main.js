@@ -57,8 +57,8 @@ function updateCertificate(profileData) {
   certificate.innerHTML = profileData.certificate
     .map(
       (certificate) => `
-    <li>
-      <h3>${certificate.name}<br>
+    <li class="certificados">
+      <h3 class="title">${certificate.name} <br>
       <span class="institution">(${certificate.institution})</span></h3>
       <p class="certificate">Certificado: <a href="${certificate.certificate}">${certificate.certificate}</a></p>
       </h3>
