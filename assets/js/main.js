@@ -58,9 +58,9 @@ function updateCertificate(profileData) {
     .map(
       (certificate) => `
     <li>
-    <h3>${certificate.name}</h3>
-    <p>${certificate.institution}</p>
-    <a href="https://www.dio.me/certificate/F6658B76">https://www.dio.me/certificate/F6658B76</a>
+      <h3>${certificate.name}<br>
+      <span class="institution">(${certificate.institution})</span></h3>
+      <p>Certificado: <a href="${certificate.certificate}">${certificate.certificate}</a></p>
     </li>`
     )
     .join("");
@@ -72,4 +72,5 @@ function updateCertificate(profileData) {
   updateSoftSkills(profileData);
   updateHardSkills(profileData);
   updateLanguages(profileData);
+  updateCertificate(profileData);
 })();

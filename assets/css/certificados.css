@@ -1,4 +1,4 @@
-.certificado {
+.certificados {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -8,14 +8,14 @@
     list-style: none;
 }
 
-.certificado li {
+.certificados li {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     margin: 1rem 0;
 }
 
-.certificado li .title {
+.certificados li .title {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -25,7 +25,12 @@
     margin-bottom: .5rem;
 }
 
-.certificado li .title.github::before {
+.certificados li .institution {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* .certificados li .title.github::before {
     content: "";
     display: inline-block;
     width: 1rem;
@@ -34,4 +39,4 @@
     background-size: contain;
     background-image: url('/assets/img/icons/github.svg');
     margin-right: .5rem;
-}
+} */
