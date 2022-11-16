@@ -97,16 +97,11 @@
       }
     }
   ],
-  "portfolio": [
+  "certificate": [
     {
-      "nome": "Crie o seu NFT de Pokémon com Blockchain (DIO)",
-      "gitHub": "https://github.com/digitalinnovationone/formacao-blockchain-dio",
-      "certificado": "https://www.dio.me/certificate/34F1FBA1"
-    },
-    {
-      "nome": "App Nativo Sobre Futebol Feminino com Android Jetpack e Java (DIO)",
-      "gitHub": "https://github.com/digitalinnovationone/soccer-news-app",
-      "certificado": "https://www.dio.me/certificate/9A5090FC"
+      "name": "Bootcamp Take Blip Web Developer",
+      "institution": "DIO",
+      "certificate": "https://www.dio.me/certificate/F6658B76"
     }
   ],
   "experiencias": [

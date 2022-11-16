@@ -51,6 +51,21 @@ function updateLanguages(profileData) {
     .join("");
 }
 
+function updateCertificate(profileData) {
+  const certificate = document.getElementById("profile.certificate");
+
+  certificate.innerHTML = profileData.certificate
+    .map(
+      (certificate) => `
+    <li>
+    <h3>${certificate.name}</h3>
+    <p>${certificate.institution}</p>
+    <a href="https://www.dio.me/certificate/F6658B76">https://www.dio.me/certificate/F6658B76</a>
+    </li>`
+    )
+    .join("");
+}
+
 (async () => {
   const profileData = await fetchProfileData();
   updateProfileInfo(profileData);
