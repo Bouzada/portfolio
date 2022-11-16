@@ -49,15 +49,11 @@
       "certificate": "https://www.dio.me/certificate/F6658B76"
     }
   ],
-  "experiencias": [
+  "portfolio": [
     {
-      "nome": "Education Tech Lead ",
-      "descricao": "",
-      "instituicao": "Digital Innovation One (DIO)",
-      "periodo": {
-        "inicio": "03/2021",
-        "fim": "Atualmente"
-      }
+      "name": "OneBitX",
+      "description": "O projeto foi desenvolvido no curso FullStack Javascript da OneBitCode, ele é inspirado na página da SpaceX. Para a construção do projeto foi usado HTML5, CSS3, SASS, Bootstrap e biblioteca de animação AOS - Animate on Scroll library.",
+      "repository": "https://github.com/Bouzada/OneBitX"
     }
   ]
 }
