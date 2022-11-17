@@ -36,7 +36,10 @@
       "Organização"
     ]
   },
-  "languages": ["Português BR", "Ingês (Intermediário)"],
+  "aboutMe": [
+    "Meu nome é Hugo Bouzada, tenho 23 anos e sou do Rio de Janeiro.",
+    "Acabei de concluir a faculdade de Administração na Universidade Estácio de sá e agora estou estudando para me tornar um Desenvolvedor Front-end."
+  ],
   "certificate": [
     {
       "name": "HTML Web Developer",

@@ -43,11 +43,11 @@ function updateHardSkills(profileData) {
     .join("");
 }
 
-function updateLanguages(profileData) {
-  const languages = document.getElementById("profile.languages");
+function updateAboutMe(profileData) {
+  const aboutMe = document.getElementById("profile.aboutMe");
 
-  languages.innerHTML = profileData.languages
-    .map((language) => `<li>${language}</li>`)
+  aboutMe.innerHTML = profileData.aboutMe
+    .map((aboutMe) => `<p>${aboutMe}</p>`)
     .join("");
 }
 
@@ -89,7 +89,7 @@ function updatePortfolio(profileData) {
   updateProfileInfo(profileData);
   updateSoftSkills(profileData);
   updateHardSkills(profileData);
-  updateLanguages(profileData);
+  updateaboutMe(profileData);
   updateCertificate(profileData);
   updatePortfolio(profileData);
 })();
