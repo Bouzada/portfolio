@@ -89,7 +89,7 @@ function updatePortfolio(profileData) {
   updateProfileInfo(profileData);
   updateSoftSkills(profileData);
   updateHardSkills(profileData);
-  updateaboutMe(profileData);
+  updateAboutMe(profileData);
   updateCertificate(profileData);
   updatePortfolio(profileData);
 })();
