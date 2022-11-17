@@ -67,6 +67,23 @@ function updateCertificate(profileData) {
     .join("");
 }
 
+function updatePortfolio(profileData) {
+  const portfolio = document.getElementById("profile.portfolio");
+
+  portfolio.innerHTML = profileData.portfolio
+    .map(
+      (portfolio) => `
+    <li>
+      <h3 class="title github">${portfolio.name}<br>
+          <span class="description">${portfolio.description}</span>
+      </h3>
+      <p class="repositorio">Repositório: <a href="${portfolio.repository}">${portfolio.repository}</a></p>
+    </li>
+    `
+    )
+    .join("");
+}
+
 (async () => {
   const profileData = await fetchProfileData();
   updateProfileInfo(profileData);
@@ -74,4 +91,5 @@ function updateCertificate(profileData) {
   updateHardSkills(profileData);
   updateLanguages(profileData);
   updateCertificate(profileData);
+  updatePortfolio(profileData);
 })();
