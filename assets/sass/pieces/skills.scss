@@ -1,0 +1,24 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+
+  .tolls {
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    li {
+      img {
+        max-width: 50px;
+        margin: .5rem;
+      }
+    }
+  }
+}
