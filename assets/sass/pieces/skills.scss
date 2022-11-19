@@ -1,8 +1,9 @@
 .skills {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: .5rem;
 
-  .tolls {
+  .tools {
     ul {
       display: flex;
       flex-direction: row;
@@ -12,12 +13,32 @@
       margin: 0;
       padding: 0;
       list-style: none;
-    }
 
-    li {
-      img {
-        max-width: 50px;
-        margin: .5rem;
+      li {
+        img {
+          max-width: 50px;
+          margin: .5rem;
+        }
+      }
+    }
+  }
+
+  .personal {
+    display: flex;
+    flex-wrap: wrap;
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+      margin: 0;
+      padding: 0;
+
+      li {
+        margin-left: 2rem;
+        padding: .5rem;
       }
     }
   }
