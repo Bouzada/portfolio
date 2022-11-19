@@ -172,9 +172,39 @@ body {
 .certificates li .certificate a {
   font-weight: 400;
   color: #FFF;
-  text-decoration: none;
+  text-decoration: underline;
 }
 .certificates li .certificate a:hover {
+  color: #6959CD;
+  text-decoration: underline;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  list-style: square;
+}
+.portfolio li {
+  margin-bottom: 1rem;
+}
+.portfolio li .title {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.portfolio li .title .description {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+.portfolio li .repository {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.portfolio li .repository a {
+  font-weight: 400;
+  color: #FFF;
+  text-decoration: underline;
+}
+.portfolio li .repository a:hover {
   color: #6959CD;
   text-decoration: underline;
 }

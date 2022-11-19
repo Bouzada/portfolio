@@ -1,25 +1,22 @@
-.certificates {
+.portfolio {
   display: flex;
   flex-direction: column;
   list-style: square;
 
   li {
-    margin: 1rem 0;
+    margin-bottom: 1rem;
 
     .title {
       font-size: 1.25rem;
       font-weight: 700;
-      margin: 0;
-      margin-bottom: .5rem;
+
+      .description {
+        font-size: .875rem;
+        font-weight: 400;
+      }
     }
 
-    .institution {
-      font-size: 1rem;
-      font-weight: 400;
-    }
-
-    .certificate {
-      margin-top: .5rem;
+    .repository {
       font-size: 1rem;
       font-weight: 700;
 

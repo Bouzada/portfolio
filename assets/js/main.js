@@ -77,7 +77,7 @@ function updatePortfolio(profileData) {
       <h3 class="title github">${portfolio.name}<br>
           <span class="description">${portfolio.description}</span>
       </h3>
-      <p class="repositorio">Repositório: <a href="${portfolio.repository}">${portfolio.repository}</a></p>
+      <p class="repository"><i class="fa-brands fa-github"></i> Repositório: <a href="${portfolio.repository}">${portfolio.repository}</a></p>
     </li>
     `
     )
