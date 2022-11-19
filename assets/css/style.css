@@ -73,24 +73,29 @@ body {
 }
 
 .header {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-areas: "photo title" "photo information";
+  column-gap: 2rem;
   align-items: center;
-  position: relative;
+  justify-content: center;
 }
 .header .photo {
+  grid-area: photo;
   width: 200px;
   height: 200px;
-  border-radius: 50%;
+  border-radius: 15%;
+  margin: 0 auto;
 }
 .header .title {
+  grid-area: title;
   font-family: "Bebas Neue", cursive;
-  text-align: center;
+  text-align: start;
 }
 .header .title span {
   font-family: "Bebas Neue", cursive;
 }
 .header .information {
+  grid-area: information;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
