@@ -146,4 +146,37 @@ body {
   padding: 0.5rem;
 }
 
+.certificates {
+  display: flex;
+  flex-direction: column;
+  list-style: square;
+}
+.certificates li {
+  margin: 1rem 0;
+}
+.certificates li .title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+.certificates li .institution {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.certificates li .certificate {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.certificates li .certificate a {
+  font-weight: 400;
+  color: #FFF;
+  text-decoration: none;
+}
+.certificates li .certificate a:hover {
+  color: #6959CD;
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=style.css.map */
