@@ -1,7 +1,11 @@
+/* Colors */
+$red-color: #B22222;
+$light-color: #FFDEAD;
+
 * {
   box-sizing: border-box;
   font-family: 'open Sans', sans-serif;
-  color: #fff;
+  color: $light-color;
 }
 
 body {
@@ -10,7 +14,7 @@ body {
 
 .main {
   margin-top: 1rem;
-  border: 1px solid #fff;
+  border: 2px solid $red-color;
   border-radius: .5rem;
   padding: 1rem;
 }

@@ -3,42 +3,45 @@
   grid-template-areas:
     "photo title"
     "photo information"
-  ;
-  column-gap: 2rem;
+    "photo social";
   align-items: center;
   justify-content: center;
+  column-gap: 1rem;
 
   .photo {
     grid-area: photo;
-    width: 200px;
-    height: 200px;
+    width: 300px;
     border-radius: 15%;
-    margin: 0 auto;
+    border: 1px solid $red-color;
   }
 
   .title {
     grid-area: title;
-    font-family: 'Bebas Neue', cursive;
-    text-align: start;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 
-    span {
-      font-family: 'Bebas Neue', cursive;
-    }
   }
 
   .information {
     grid-area: information;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
 
-    p {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      margin: .5rem;
-      font-size: 1.125rem;
+  .social {
+    grid-area: social;
+
+    i {
+      font-size: 20px;
+      margin-right: 1rem;
     }
   }
 }
