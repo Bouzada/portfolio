@@ -11,6 +11,24 @@ function updateProfileInfo(profileData) {
 
   const location = document.getElementById("profile.location");
   location.innerText = profileData.location;
+
+  const telegram = document.getElementById("profile.telegram");
+  telegram.href = profileData.telegram;
+
+  const whatsapp = document.getElementById("profile.whatsapp");
+  whatsapp.href = profileData.phone;
+
+  const email = document.getElementById("profile.email");
+  email.href = profileData.email;
+
+  const github = document.getElementById("profile.github");
+  github.href = profileData.github;
+
+  const linkedin = document.getElementById("profile.linkedin");
+  linkedin.href = profileData.linkedin;
+
+  const instagram = document.getElementById("profile.instagram");
+  instagram.href = profileData.instagram;
 }
 
 function updateSoftSkills(profileData) {
