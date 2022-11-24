@@ -83,7 +83,7 @@ body {
   grid-area: photo;
   width: 300px;
   border-radius: 15%;
-  border: 1px solid #B22222;
+  border: 2px solid #B22222;
 }
 .header .title {
   grid-area: title;
@@ -100,7 +100,7 @@ body {
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   gap: 1rem;
 }
 .header .social {
