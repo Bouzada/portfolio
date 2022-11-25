@@ -54,6 +54,11 @@
       "name": "Bootcamp Take Blip Web Developer",
       "institution": "DIO - Digital Innovation One",
       "certificate": "https://www.dio.me/certificate/F6658B76"
+    },
+    {
+      "name": "Formação JavaScript Developer",
+      "institution": "DIO - Digital Innovation One",
+      "certificate": "https://www.dio.me/certificate/9A590C8A"
     }
   ],
   "portfolio": [
@@ -61,6 +66,11 @@
       "name": "OneBitX",
       "description": "O projeto foi desenvolvido no curso FullStack Javascript da OneBitCode, ele é inspirado na página da SpaceX. Para a construção do projeto foi usado HTML5, CSS3, SASS, Bootstrap e biblioteca de animação AOS - Animate on Scroll library.",
       "repository": "https://github.com/Bouzada/OneBitX"
+    },
+    {
+      "name": "Interface do Netflix",
+      "description": "O projeto foi desenvolvido na plataforma da DIO, nele foi contruído a interface da página do Netflix. Para a criação da página foi usado HTML5, CSS3, JavaScript e JQuery (Utilizada para fazer o carrosel).",
+      "repository": "https://github.com/Bouzada/Clone-Netflix"
     }
   ]
 }
