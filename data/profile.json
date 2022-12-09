@@ -59,6 +59,11 @@
       "name": "Formação JavaScript Developer",
       "institution": "DIO - Digital Innovation One",
       "certificate": "https://www.dio.me/certificate/9A590C8A"
+    },
+    {
+      "name": "Formação CSS Web Developer",
+      "institution": "DIO - Digital Innovation One",
+      "certificate": "https://www.dio.me/certificate/282D144F"
     }
   ],
   "portfolio": [
@@ -71,6 +76,16 @@
       "name": "Interface do Netflix",
       "description": "O projeto foi desenvolvido na plataforma da DIO, nele foi contruído a interface da página do Netflix. Para a criação da página foi usado HTML5, CSS3, JavaScript e JQuery (Utilizada para fazer o carrosel).",
       "repository": "https://github.com/Bouzada/Clone-Netflix"
+    },
+    {
+      "name": "Formação CSS Web Developer",
+      "description": "Dentro desse repositório estão todos os projetos criados dentro da formação CSS.",
+      "repository": "https://github.com/Bouzada/formacao-CSS-DIO"
+    },
+    {
+      "name": "Jogos",
+      "description": "Dentro desse repositório estão os jogos que desenvolvi durante os meus estudos, dentre eles estão o Jogo da velha, o jogo da cobrinha e outros.",
+      "repository": "https://github.com/Bouzada/jogos"
     }
   ]
 }
