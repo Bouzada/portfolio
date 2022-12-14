@@ -1,0 +1,45 @@
+@media (max-width: 768px) {
+  .header {
+    .photo {
+      width: 225px;
+    }
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .header {
+    .photo {
+      width: 150px;
+      border-radius: 50%;
+    }
+
+    .profile {
+      gap: .5rem;
+
+      .title {
+        font-size: 1.5rem;
+        font-weight: 700;
+      }
+
+      .information {
+        font-size: .725rem;
+        font-weight: 600;
+      }
+
+      .social {
+        gap: .275rem .725rem;
+
+        i {
+          font-size: 1.250rem;
+        }
+      }
+    }
+  }
+}
