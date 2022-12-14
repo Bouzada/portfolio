@@ -33,9 +33,9 @@
       }
     ],
     "softSkills": [
-      "Liderança",
-      "Comunicação",
+      "Comunicação eficaz",
       "Criatividade",
+      "Inovação",
       "Trabalho em equipe",
       "Organização"
     ]
@@ -76,6 +76,11 @@
       "name": "Interface do Netflix",
       "description": "O projeto foi desenvolvido na plataforma da DIO, nele foi contruído a interface da página do Netflix. Para a criação da página foi usado HTML5, CSS3, JavaScript e JQuery (Utilizada para fazer o carrosel).",
       "repository": "https://github.com/Bouzada/Clone-Netflix"
+    },
+    {
+      "name": "Pokédex",
+      "description": "O projeto foi elaborado para o aprendizado do consumo de API utilizando JavaScript.",
+      "repository": "https://github.com/Bouzada/DIO-Pokedex"
     },
     {
       "name": "Formação CSS Web Developer",
