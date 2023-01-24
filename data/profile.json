@@ -91,6 +91,11 @@
       "name": "Jogos",
       "description": "Dentro desse repositório estão os jogos que desenvolvi durante os meus estudos, dentre eles estão o Jogo da velha, o jogo da cobrinha e outros.",
       "repository": "https://github.com/Bouzada/jogos"
+    },
+    {
+      "name": "Calculadora",
+      "description": "Esse projeto é uma calculadora com funções comuns criados com Javascript.",
+      "repository": "https://github.com/Bouzada/calculadora-js"
     }
   ]
 }
